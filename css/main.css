@@ -164,6 +164,7 @@ nav a:hover {
   background-color: #333;
   color: #fff;
   text-decoration: none;
+  font-size: 1rem;
 }
 
 .btn:hover {
@@ -174,10 +175,6 @@ nav a:hover {
   display: inline-block;
   padding: 0.4em 0.75em 0.3em;
   text-decoration: none;
-}
-
-.btn {
-  font-size: 1rem;
 }
 
 .link-cards a:link {
@@ -224,8 +221,8 @@ nav a:hover {
 footer {
   background-color: #333;
   overflow: hidden;
-  padding: 0 1em;
-  color: #fff;
+  padding: 1em 1em;
+  color: #ccc;
 }
 
 .social-media {
@@ -241,6 +238,11 @@ footer {
   width: 100%;
   margin: 0;
   padding: 1em 0 0 0;
+}
+
+.disclaimer {
+  display: inline;
+  text-align: center;
 }
 
 @media only screen and (min-width: 25em) {
@@ -286,7 +288,6 @@ footer {
     overflow: hidden;
   }
 
-
   ul.nav {
     float: right;
   }
@@ -323,17 +324,16 @@ footer {
     float: left;
   }
 
-
   .menu img {
     float: left;
     width: 50%;
-    padding: 0 1em 0 0;
+    padding: 0 1em 1em 0;
   }
 
   .about img {
     float: right;
     width: 50%;
-    padding: 0 0 0 1em;
+    padding: 0 0 1em 1em;
   }
 
   .step-1,
@@ -368,13 +368,26 @@ footer {
     overflow: hidden;
   }
 
+  .hours {
+    float: left;
+    width: 50%;
+    padding: 0 1em 0 0;
+  }
+
+  .map {
+    padding: 0 0 0 1em;
+    width: 50%;
+    float: left;
+    padding-bottom: 1em;
+  }
+
   .social-media {
+    padding-top: 1em;
     text-align: center;
   }
 
   .social-media img {
     width: 80px;
-    padding: 1em 1em;
   }
 
 }

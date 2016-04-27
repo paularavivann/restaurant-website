@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -9,3 +10,6 @@
 <rect x="54.8" y="312.9" class="st0" width="598.1" height="91"/>
 <rect x="54.8" y="480.7" class="st0" width="598.1" height="91"/>
 </svg>
+=======
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" enable-background="new 0 0 256 256"><g><path d="M8.5 26.9h239v35.8h-239zM8.5 110.6h239v35.8h-239zM8.5 194.2h239v35.8h-239z"/></g></svg>
+>>>>>>> acgd-webdev-1/gh-pages

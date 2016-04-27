@@ -20,7 +20,7 @@
 ## Markbot will expect
 
 - `header`, `header nav`, `header h1`, `header li`, `header nav a`
-- `h2`, `div`, `section`, `img`, `footer`
+- `main`, `h2`, `div`, `section`, `img`, `footer`
 - A Google Font
 - CSS boilerplate: `cssviewport`, `borderbox`, `textsize`
 - Standard media query widths: `25em`, `38em`, `60em`, `90em`
@@ -71,7 +71,9 @@ In class, during week 14 you must show Thomas progress on the coded version of y
 
 In class, during week 15, we’ll be testing everybody’s website in different browsers to make sure they look good.
 
-**You’ll be required to submit screenshots for your website for every browser listed.**
+*You’ll be required to submit screenshots for your website for every browser listed.*
+
+**When I’m grading the websites I’ll be using a random browser to view your site.**
 
 ### 4. Request for grade
 

@@ -132,6 +132,10 @@ nav a:hover {
   height: 50%;
 }
 
+.banner img:nth-child(2) {
+   display: none;
+}
+
 .banner {
   max-height: 500px;
   position: relative;
@@ -304,6 +308,14 @@ footer p {
   html {
     font-size: 100%;
     line-height: 1.3;
+  }
+
+  .banner img:nth-child(1) {
+     display: none;
+  }
+
+  .banner img:nth-child(2) {
+     display: block;
   }
 
   .banner h2 {

@@ -178,6 +178,10 @@ nav a:hover {
   background: #000;
 }
 
+.small {
+  font-size: 0.5rem;
+}
+
 .banner a:link {
   display: inline-block;
   padding: 0.4em 0.75em 0.3em;
@@ -228,7 +232,8 @@ section.cards {
   padding: 1em 0;
 }
 
-h2 {
+h2,
+h3 {
   font-family: "Pathway Gothic One", sans-serif;
   text-transform: uppercase;
   padding: 0.5em;
@@ -248,8 +253,8 @@ h2 {
 .date {
   padding: 0.5em;
   margin-right: 1em;
-  background-color: #333;
-  color: #eee;
+  background-color: #666;
+  color: #fff;
   font-family: "Pathway Gothic One", sans-serif;
   text-transform: uppercase;
 }
@@ -257,8 +262,11 @@ h2 {
 footer {
   background-color: #333;
   overflow: hidden;
-  padding: 1em 1em;
   color: #ccc;
+}
+
+footer p {
+  padding: 0 1rem;
 }
 
 .social-media {
@@ -267,17 +275,12 @@ footer {
 
 .social-media img {
   width: 80px;
-  padding: 1em 1em;
-}
-
-.map {
-  padding: 2em 0 2em 0;
+  padding: 1em;
 }
 
 .map img {
   width: 100%;
   margin: 0;
-  padding: 1em 0 0 0;
 }
 
 .disclaimer {

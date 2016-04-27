@@ -124,17 +124,6 @@ nav a:hover {
   display: block;
 }
 
-.cards img,
-.social-media img {
-    opacity: 0.4;
-    filter: alpha(opacity=40);
-}
-
-a img:hover {
-    opacity: 1.0;
-    filter: alpha(opacity=100);
-}
-
 .img-flex {
   display: block;
   width: 100%;
@@ -254,6 +243,15 @@ h2 {
 .events h3,
 .events p {
   padding: 0 1em;
+}
+
+.date {
+  padding: 0.5em;
+  margin-right: 1em;
+  background-color: #333;
+  color: #eee;
+  font-family: "Pathway Gothic One", sans-serif;
+  text-transform: uppercase;
 }
 
 footer {

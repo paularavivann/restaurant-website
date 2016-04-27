@@ -20,7 +20,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: "Gilda Display", serif;
+  font-family: "Raleway", serif;
 }
 
 section {
@@ -325,7 +325,14 @@ footer p {
   }
 
   header h1 {
+    display: none;
+  }
+
+  header img {
+    display: inline-block;
+    width: 5em;
     float: left;
+    padding: 1em;
   }
 
   .banner h2 {

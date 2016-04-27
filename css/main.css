@@ -255,12 +255,16 @@ h3 {
   float: left;
 }
 
+.events img {
+  padding-top: 1em;
+}
+
 .events h3 {
   float: left;
 }
 
 .events p {
-  padding: 0;
+  padding: 0 1em 0 1em;
   margin: 0;
   display: inline-block;
 }

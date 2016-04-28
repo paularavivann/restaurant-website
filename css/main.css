@@ -133,7 +133,7 @@ nav a:hover {
 }
 
 .banner img:nth-child(2) {
-   display: none;
+  display: none;
 }
 
 .banner {
@@ -303,6 +303,10 @@ footer p {
   text-align: center;
 }
 
+.small-text {
+  font-size: 0.8rem;
+}
+
 @media only screen and (min-width: 25em) {
 
   html {
@@ -311,11 +315,11 @@ footer p {
   }
 
   .banner img:nth-child(1) {
-     display: none;
+    display: none;
   }
 
   .banner img:nth-child(2) {
-     display: block;
+    display: block;
   }
 
   .banner h2 {
